@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #edefee;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 20px;
+  width: 90%;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 50%;
+}
+
+.textbox {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
